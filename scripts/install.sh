@@ -1,10 +1,10 @@
 #!/bin/bash
 ## -----------------------------------------------------------------------------
 ## Linux Scripts.
-## Install the bash-manageservices project into the /opt/oju/bash directory.
+## Install the bash-savedb project into the /opt/oju/bash directory.
 ##
 ## @package ojullien\bash\scripts
-## @license MIT <https://github.com/ojullien/bash-manageservices/blob/master/LICENSE>
+## @license MIT <https://github.com/ojullien/bash-savedb/blob/master/LICENSE>
 ## -----------------------------------------------------------------------------
 #set -o errexit
 set -o nounset
@@ -31,7 +31,7 @@ readonly m_DIR_BIN="${m_INSTALL_DESTINATION_DIR}/bin" # Directory holds app entr
 readonly m_DIR_SYS="${m_INSTALL_DESTINATION_DIR}/sys" # Directory holds system files
 
 # SOURCE
-readonly m_INSTALL_APP_NAME="manageservices"
+readonly m_INSTALL_APP_NAME="savedb"
 readonly m_INSTALL_SOURCE_APP_DIR="$(realpath "${m_DIR_REALPATH}/../src/app/${m_INSTALL_APP_NAME}")"
 readonly m_INSTALL_SOURCE_BIN_FILE="$(realpath "${m_DIR_REALPATH}/../src/bin/${m_INSTALL_APP_NAME}.sh")"
 
