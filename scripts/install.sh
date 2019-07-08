@@ -104,9 +104,9 @@ String::notice "Today is: $(date -R)"
 String::notice "The PID for $(basename "$0") process is: $$"
 Console::waitUser
 
-FileSystem::removeDirectory "${m_DIR_APP}/${m_INSTALL_APP_NAME}"
-iReturn=$?
-((0!=iReturn)) && exit ${iReturn}
+#FileSystem::removeDirectory "${m_DIR_APP}/${m_INSTALL_APP_NAME}"
+#iReturn=$?
+#((0!=iReturn)) && exit ${iReturn}
 
 FileSystem::removeDirectory "${m_DIR_BIN}/${m_INSTALL_APP_NAME}.sh"
 iReturn=$?
