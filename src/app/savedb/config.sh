@@ -3,7 +3,7 @@
 ## SaveDB app configuration file.
 ##
 ## @package ojullien\bash\app\savedb
-## @license MIT <https://github.com/ojullien/bash-savesite/blob/master/LICENSE>
+## @license MIT <https://github.com/ojullien/bash-savedb/blob/master/LICENSE>
 ## -----------------------------------------------------------------------------
 
 # Remove these 3 lines once you have configured this file
